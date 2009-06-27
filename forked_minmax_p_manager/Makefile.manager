@@ -1,0 +1,13 @@
+CFLAGS := -g -pthread -Wall
+LDFLAGS := -g -pthread -Wall
+ 
+.PHONY: all clean
+ 
+all: forked_minmax pseudo_shell_manager
+ 
+forked_minmax: forked_minmax.o 
+ 
+pseudo_shell_manager: pseudo_shell_manager.o
+ 
+clean:
+	@rm -f *.o forked_minmax pseudo_shell_manager
