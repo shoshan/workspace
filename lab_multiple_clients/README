@@ -1,0 +1,15 @@
+lab_multiple_client_server
+
+extended solution to home lab from gby embedded linux programming.
+supports multiple clients connection disconnection and transmition.
+
+lab has two excutables :
+  lab_multiple client: give commands to server - r/q/c  
+              and print server response , 
+              if no server the client retry with TO.
+              r- reset count 
+              q- quit 
+              c- tell what is the count 
+  lab_multiple_server: server waiting to command from multiple_clients ( only one client)
+  
+thanks and references from  embedded linux course gby--github.com     

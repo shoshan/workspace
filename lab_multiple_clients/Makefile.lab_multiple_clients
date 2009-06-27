@@ -1,0 +1,13 @@
+CFLAGS := -g -pthread -Wall
+LDFLAGS := -g -pthread -Wall
+ 
+.PHONY:  clean
+ 
+all: lab_multiple_server lab_multiple_client
+ 
+lab_multiple_server: lab_multiple_server.o 
+ 
+lab_multiple_client: lab_multiple_client.o
+ 
+clean:
+	@rm -f *.o lab_multiple_server lab_multiple_client
