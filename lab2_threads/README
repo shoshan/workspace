@@ -1,0 +1,7 @@
+lab2_threads 
+
+forking ,spawn threads collecting data 
+long runtime is not a surprised:  blocking time mixes the  threads execution.
+
+  
+thanks and references from  embedded linux course gby--github.com     

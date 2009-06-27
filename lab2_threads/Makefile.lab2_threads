@@ -1,0 +1,6 @@
+CFLAGS=-pthread -g 
+
+all: lab2_threads
+
+clean:
+	rm -rf lab2_threads *.o 
